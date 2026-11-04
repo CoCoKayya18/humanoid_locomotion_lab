@@ -1,0 +1,37 @@
+# ROS / colcon
+build/
+install/
+log/
+
+# CMake
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Editor/system
+.vscode/*.log
+.DS_Store
+
+# Simulation / data artifacts (store only small explicit samples)
+*.bag
+*.db3
+*.mcap
+*.mp4
+results/raw/
+external/
+
+# Docker
+**/.env
+**/.env.*
+docker/volumes/
+
+# Secrets
+.env
+.env.*
